@@ -1,0 +1,28 @@
+# Visual Studio가 만드는 개인 설정과 잠긴 검색 인덱스
+.vs/
+*.suo
+*.user
+*.VC.db
+*.VC.opendb
+*.sdf
+*.opensdf
+
+# Unreal Engine이 다시 생성하는 빌드 결과, 임시 파일, 캐시와 로그
+Binaries/
+Intermediate/
+Saved/
+DerivedDataCache/
+
+# Unreal에서 재생성할 수 있는 IDE 프로젝트 파일
+*.sln
+*.slnx
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+
+# Python 보조 도구의 캐시
+__pycache__/
+*.pyc
+
+# Source, Content, Config, Build, Arduino, Scripts, docs와 .uproject는 보관한다.
+# Build에는 배포 설정이나 아이콘이 있을 수 있으므로 폴더 전체를 제외하지 않는다.

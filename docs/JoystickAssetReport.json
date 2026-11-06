@@ -1,0 +1,46 @@
+{
+  "original_map_actors": [
+    {
+      "label": "DirectionalLight",
+      "class": "DirectionalLight"
+    },
+    {
+      "label": "SkyAtmosphere",
+      "class": "SkyAtmosphere"
+    },
+    {
+      "label": "SkyLight",
+      "class": "SkyLight"
+    },
+    {
+      "label": "ExponentialHeightFog",
+      "class": "ExponentialHeightFog"
+    },
+    {
+      "label": "VolumetricCloud",
+      "class": "VolumetricCloud"
+    },
+    {
+      "label": "PlayerStart",
+      "class": "PlayerStart"
+    },
+    {
+      "label": "SM_SkySphere",
+      "class": "StaticMeshActor"
+    },
+    {
+      "label": "Floor",
+      "class": "StaticMeshActor"
+    },
+    {
+      "label": "BP_ArduinoTest",
+      "class": "BP_ArduinoTest_C"
+    }
+  ],
+  "blueprint": "/Game/Blueprints/Arduino/BP_JoystickBox",
+  "map": "/Game/Maps/L_JoystickBoxTest",
+  "box_class": "BP_JoystickBox_C",
+  "port": "COM3",
+  "baud": 115200,
+  "status": "assets_created_and_checked"
+}

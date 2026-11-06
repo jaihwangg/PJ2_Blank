@@ -1,0 +1,102 @@
+﻿{
+	"devices": [
+		{
+			"deviceName": "DESKTOP-GO8MRJJ",
+			"instance": "81E7D2D24D8AE15B8A1C27913D3B6103",
+			"instanceName": "DESKTOP-GO8MRJJ-7568",
+			"platform": "WindowsEditor",
+			"oSVersion": "Windows 10 (22H2) [10.0.19045.6466] ",
+			"model": "Default",
+			"gPU": "NVIDIA GeForce RTX 2060",
+			"cPUModel": "Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz",
+			"rAMInGB": 16,
+			"renderMode": "SM6",
+			"rHI": "",
+			"appInstanceLog": ""
+		}
+	],
+	"reportCreatedOn": "2026.11.05-08.54.35",
+	"succeeded": 3,
+	"succeededWithWarnings": 1,
+	"failed": 0,
+	"notRun": 0,
+	"inProcess": 0,
+	"totalDuration": 0.11434189230203629,
+	"comparisonExported": false,
+	"comparisonExportDirectory": "",
+	"tests": [
+		{
+			"testDisplayName": "BoxMovement",
+			"fullTestPath": "PJ2.Arduino.BoxMovement",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"81E7D2D24D8AE15B8A1C27913D3B6103"
+			],
+			"duration": 0.073506101965904236,
+			"dateTime": "2026.11.05-08.54.35",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "CalibrationAndMovement",
+			"fullTestPath": "PJ2.Arduino.CalibrationAndMovement",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"81E7D2D24D8AE15B8A1C27913D3B6103"
+			],
+			"duration": 0.00457029789686203,
+			"dateTime": "2026.11.05-08.54.35",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "ComponentInput",
+			"fullTestPath": "PJ2.Arduino.ComponentInput",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"81E7D2D24D8AE15B8A1C27913D3B6103"
+			],
+			"duration": 0.027918498963117599,
+			"dateTime": "2026.11.05-08.54.35",
+			"entries": [
+				{
+					"event":
+					{
+						"type": "Warning",
+						"message": "LogTemp: Arduino serial: Cannot open INVALID_JOYSTICK_TEST_PORT (Windows error 2)",
+						"context": "log",
+						"artifact": "00000000000000000000000000000000"
+					},
+					"filename": "",
+					"lineNumber": -1,
+					"timestamp": "2026.11.05-08.54.35"
+				}
+			],
+			"warnings": 1,
+			"errors": 0,
+			"artifacts": []
+		},
+		{
+			"testDisplayName": "Protocol",
+			"fullTestPath": "PJ2.Arduino.Protocol",
+			"tags": [],
+			"state": "Success",
+			"deviceInstance": [
+				"81E7D2D24D8AE15B8A1C27913D3B6103"
+			],
+			"duration": 0.0083469972014427185,
+			"dateTime": "2026.11.05-08.54.35",
+			"entries": [],
+			"warnings": 0,
+			"errors": 0,
+			"artifacts": []
+		}
+	]
+}
